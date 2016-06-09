@@ -399,7 +399,7 @@
         // typing speed
         typeSpeed: 0,
         // time before typing starts
-        startDelay: 8000,
+        startDelay: 4000,
         // backspacing speed
         backSpeed: 0,
         // shuffle the strings
@@ -434,19 +434,19 @@
 $(function(){
       $(".about").typed({
         strings: ["<strong> About </strong>"],
-        typeSpeed: 240
+        typeSpeed: 140
       });
   });
 
 $(function(){
       $(".portfolio").typed({
         strings: ["<strong> Portfolio </strong>"],
-        typeSpeed: 240
+        typeSpeed: 140
       });
   });
 $(function(){
       $(".contact").typed({
         strings: ["<strong> Contact </strong>"],
-        typeSpeed: 240
+        typeSpeed: 140
       });
   });

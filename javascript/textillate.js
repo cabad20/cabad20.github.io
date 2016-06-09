@@ -257,12 +257,12 @@
   $.fn.textillate.defaults = {
     selector: '.texts',
     loop: true,
-    minDisplayTime: 2000,
+    minDisplayTime: 500,
     initialDelay: 0,
     in: {
       effect: 'flash',
-      delayScale: 1.5,
-      delay: 50,
+      delayScale: 1,
+      delay: 20,
       sync: false,
       reverse: false,
       shuffle: true,
@@ -270,8 +270,8 @@
     },
     out: {
       effect: 'hinge',
-      delayScale: 1.5,
-      delay: 50,
+      delayScale: 1,
+      delay: 20,
       sync: false,
       reverse: false,
       shuffle: true,
