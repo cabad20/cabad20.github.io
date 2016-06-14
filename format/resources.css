@@ -70,8 +70,8 @@
    #portfolio{
      height: 80vh;
      background-color: #076B8C;
-     margin: 5vh 5vw;
-     padding: 3vh 3vw;
+     margin: 3vh 3vw;
+     padding: 2vh 2vw;
      box-sizing: border-box;
      display: flex;
      flex-direction: row;
@@ -82,7 +82,7 @@
    .picInfo{
      font-family: ubuntu;
      color: #efefef;
-     font-size: 1em;
+     font-size: 10px;
    }
    .menuPages{
      font-size: 1em;
@@ -95,9 +95,9 @@
      float: right;
    }
    .projects{
-     height: 40vh;
-     width: 50vh;
-    
+     height: 45vh;
+     width: 30vw;
+
    }
    #contact-form{
      height: 80vh;
