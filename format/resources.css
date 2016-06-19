@@ -63,14 +63,14 @@
    #bio{
      background-color: #076B8C;
      box-sizing: border-box;
-     width: 50vw;
+     width: 40vw;
      height: 60vh;
      position: absolute;
      margin-top: 15vh;
     }
    .aboutInfo{
      position: absolute;
-     right: 25vh;
+     right: 30vh;
      margin-top: 20vh;
      font-family: ubuntu;
      color: black;
