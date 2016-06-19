@@ -55,17 +55,28 @@
     text-decoration: none;
 
   }
+  .containerAbout{
+    height: 80vh;
+    margin: 2vw 5vh 2vw 20vh;
+  }
+
    #bio{
-     height: 80vh;
      background-color: #076B8C;
-     font-family: ubuntu;
-     color: #efefef;
-     margin: 5vh 5vw;
-     padding: 3vh 3vw;
-     font-size: 1.3em;
      box-sizing: border-box;
-     display: flex;
-     flex-direction: column;
+     width: 50vw;
+     height: 60vh;
+     position: absolute;
+     margin-top: 15vh;
+    }
+   .aboutInfo{
+     position: absolute;
+     right: 25vh;
+     margin-top: 20vh;
+     font-family: ubuntu;
+     color: black;
+     width: 60vw;
+     padding: 15px 15px;
+     background-color: #efefef;
    }
    #portfolio{
      height: 80vh;
@@ -90,8 +101,8 @@
      padding-left: 1vw;
    }
    .profPicture{
-     height: 30vh;
-     width: 30vh;
+     height: 15vh;
+     width: 15vh;
      float: right;
    }
    .projects{
