@@ -61,7 +61,7 @@
   }
 
    #bio{
-     background-color: #076B8C;
+     background-color: #FFEF1D;
      box-sizing: border-box;
      width: 40vw;
      height: 60vh;
@@ -73,10 +73,10 @@
      right: 30vh;
      margin-top: 20vh;
      font-family: ubuntu;
-     color: #A19710;
+     color: black;
      width: 60vw;
      padding: 15px 15px;
-     background-color: #efefef;
+     line-height: 20px;
    }
    #portfolio{
      height: 80vh;
