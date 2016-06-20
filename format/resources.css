@@ -62,6 +62,7 @@
 
    #bio{
      background-color: #36BA45;
+     opacity: .6;
      box-sizing: border-box;
      width: 40vw;
      height: 60vh;
