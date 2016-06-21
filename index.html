@@ -23,9 +23,9 @@
     <div class="menu">
       <a href="#containerAbout"><span class="about"> </span></a>
       <a href="#portfolio"><span class="portfolio"></span></a>
-      <a href="#contact-form"><span class="contact"> </span></a>
+      <a href="#contactInfo"><span class="contact"> </span></a>
     </div>
-    
+
 
     <article id="allPages">
 
@@ -53,24 +53,26 @@
       </ul>
     </section>
   </div>
-
+  <br>
     <div id="portfolio">
-      <div>
-        <img class="projects" src="pictures/midProject.png" alt="projectPicture" type="Wyncode Scrapbook"></img>
-          <p class="picInfo">
-            Project was created with Ruby | Ruby on rails | Javascript <br>
-            HTML/CSS | Jquery | AWS. Watch it <a href="https://wyncode-scrapbook.herokuapp.com/">Live</a>
-          </p>
-        </div>
-      <div>
-        <img class="projects" src="pictures/final.png" alt="finalProjectPicture" target="ParkNark"></img>
-          <p class="picInfo">
-              Project was created with Ruby | ROR | Javascript | Google Maps Api | Device <br>
-              HTML/CSS | gon | twillio Api.  Watch it <a href="https://parknark.herokuapp.com">Live</a>
-          </p>
+      <div class="projects">
+        <p class="picInfo">
+          Project was created with Ruby | Ruby on rails | Javascript <br>
+          HTML/CSS | Jquery | AWS. Watch it <a href="https://wyncode-scrapbook.herokuapp.com/">Live</a>
+        </p>
+        <img src="pictures/midProject.png" alt="projectPicture" name="Wyncode Scrapbook"></img>
+      </div>
+
+      <div class="finalprojects">
+        <p class="finalProjectInfo">
+            Project was created with Ruby | ROR | Javascript | Google Maps Api | Device <br>
+            HTML/CSS | gon | twillio Api.  Watch it <a href="https://parknark.herokuapp.com">Live</a>
+        </p>
+        <img src="pictures/final.png" alt="finalProjectPicture"></img>
       </div>
     </div>
-
+    <br>
+    <footer id="contactInfo">
     <form id="contact-form" action="mailto:cabad20@gmail.com" method="post">
           <h3>Let's Keep In Touch</h3>
           <div>
@@ -95,6 +97,7 @@
                   <button name="submit" type="submit" id="contact-submit">Send Email</button>
           </div>
   </form>
+</footer>
 </article>
 
 

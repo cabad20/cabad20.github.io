@@ -1,4 +1,4 @@
-  
+
 
   li{
     text-decoration: none;
@@ -83,25 +83,32 @@
      padding: 15px 15px;
      line-height: 20px;
      box-shadow: 10px 0 5px grey;
-
    }
-   #portfolio{
-     height: 100vh;
-     background-color: #076B8C;
-     margin: 3vh 3vw;
-     padding: 2vh 2vw;
-     box-sizing: border-box;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-around;
-     text-align: center;
-     padding-top: 15vh;
 
-   }
-   .picInfo{
+   p.picInfo{
      font-family: ubuntu;
      color: #efefef;
-     font-size: 1rem;
+     font-size: .8rem;
+     background-color: #076B8C;
+     height: 6vh;
+     padding: 2vh;
+     margin-left: 35.2vw;
+     padding-left: 15px;
+     position: absolute;
+     margin-top: 15vh;
+     text-align: center;
+   }
+   p.finalProjectInfo{
+     font-family: ubuntu;
+     color: #efefef;
+     font-size: .8rem;
+     background-color: #076B8C;
+     position: absolute;
+     margin: 15vh 0 0 38.6vw;
+     height: 6vh;
+     padding: 2vh;
+     text-align: center;
+
    }
    .menuPages{
      font-size: 1em;
@@ -113,13 +120,42 @@
      width: 15vh;
      float: right;
    }
+   #portfolio{
+     height: 100vh;
+     box-sizing: border-box;
+     position: relative;
+     padding: 20px;
+   }
+
    .projects{
+     height: 50vh;
+     /*margin-top: 0;
+     margin-left: 0;*/
+   }
+   .finalprojects{
+     height: 50vh;
+     margin: 10px 0;
+
+   }
+   .projects img{
      height: 45vh;
-     width: 30vw;
+     width: 35vw;
+
+   }
+   .finalprojects img{
+     height: 45vh;
+     width: 20vw;
+     float: right;
+     border-radius: 30px;
+   }
+   footer{
+      height: 100vh;
+      padding-top: 20vh;
 
    }
    #contact-form{
-     height: 100vh;
+     padding-top: 20vh;
+     height: 60vh;
      background-color: #076B8C;
      font-family: ubuntu;
      color: #efefef;
