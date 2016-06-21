@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="icon" href="../pictures/profPicture.png">
+    <link rel="icon" href="pictures/profPicture.png">
     <meta charset="utf-8">
     <meta name="keywords" content="christianabad.com - Coder, Ruby Ruby on Rails Html Css Javascript Software Developer, Agile Methodology ">
     <meta name="description" content="Software Developer in Miami FL, Front-End Developer in South Florida: Ruby | Ruby on Rails | HTML/CSS | JavaScript | Jquery | Git | Agile | Api | Gems">
@@ -16,15 +16,88 @@
       <a href="https://www.linkedin.com/in/1christianrabad"><img src="http://image005.flaticon.com/23/svg/23/23737.svg" alt="linkedin"></a>
       <a href="https://github.com/cabad20"><img src="http://image005.flaticon.com/1/svg/37/37318.svg" alt="Github"></a>
     </div>
-    <div class="main">
+    <main class="main">
       <p>Hi, my name is <strong>Christian Abad,</strong> <br> I am a Software Developer.</p>
 
-    </div>
+    </main>
     <div class="menu">
-      <a href="pages/aboutPage.html"><span class="about"> </span></a>
-      <a href="pages/portfolioPage.html"><span class="portfolio"></span></a>
-      <a href="pages/contactPage.html"><span class="contact"> </span></a>
+      <a href="#containerAbout"><span class="about"> </span></a>
+      <a href="#portfolio"><span class="portfolio"></span></a>
+      <a href="#contact-form"><span class="contact"> </span></a>
     </div>
+    
+
+    <article id="allPages">
+
+    <div id="containerAbout">
+    <div id="bio"> </div>
+      <section class="aboutInfo">
+      <span>
+        <strong>
+          Welcome! My name is Christian Abad and I am a software developer based out of sunny Miami, FL. Here are a few “fun facts” about myself that I’d like to share with you:
+        <strong>
+      </span>
+        <ul>
+        <li>Born in Guayaquil, Ecuador.</li>
+        <li>Attended a Naval Academy. (A.N.A.I.) where public speaking was highly emphasized. Every Monday we had to speak in front of the entire school!</li>
+          <img class="profPicture" src="pictures/profPicture.png" alt="profilePic"></img>
+        <li>Moved from Ecuador to Hickory, NC when I was 11 years old</li>
+        <li> I skipped 8th grade and went straight to high school (Saint Stephen's High School), where I was part of the soccer and track teams.</li>
+        <li> My soccer team was ranked 13th in the nation during my senior year …GOOO Indians!</li>
+        <li> Recipient of the Golden Boot Award.</li>
+        <li> Captain of the track team, I ran 100 and 200 sprints in which I quailfied for regionals with a time of 11.4 on the 100m dash.</li>
+        <li> Received many educational awards.</li>
+        <li>Attended UNC Charlotte and graduated with a degree in Communications.</li>
+        <li>Moved to Miami in '12 with my beautiful wife and in '13 we welcomed our baby boy to the world.</li>
+        <li>In '16, I decided to challenge myself and entered Wyncode Academy to learn to code. Check out my portfolio page to see a few of projects I worked on while @ Wyncode.</li>
+      </ul>
+    </section>
+  </div>
+
+    <div id="portfolio">
+      <div>
+        <img class="projects" src="pictures/midProject.png" alt="projectPicture" type="Wyncode Scrapbook"></img>
+          <p class="picInfo">
+            Project was created with Ruby | Ruby on rails | Javascript <br>
+            HTML/CSS | Jquery | AWS. Watch it <a href="https://wyncode-scrapbook.herokuapp.com/">Live</a>
+          </p>
+        </div>
+      <div>
+        <img class="projects" src="pictures/final.png" alt="finalProjectPicture" target="ParkNark"></img>
+          <p class="picInfo">
+              Project was created with Ruby | ROR | Javascript | Google Maps Api | Device <br>
+              HTML/CSS | gon | twillio Api.  Watch it <a href="https://parknark.herokuapp.com">Live</a>
+          </p>
+      </div>
+    </div>
+
+    <form id="contact-form" action="mailto:cabad20@gmail.com" method="post">
+          <h3>Let's Keep In Touch</h3>
+          <div>
+                  <label>
+                          <span>Name: (required)</span>
+                          <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+                  </label>
+          </div>
+          <div>
+                  <label>
+                          <span>Email: (required)</span>
+                          <input placeholder="Please enter your email address" type="email" tabindex="2" required>
+                  </label>
+          </div>
+          <div>
+                  <label>
+                          <span>Message: (required)</span>
+                          <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+                  </label>
+          </div>
+          <div>
+                  <button name="submit" type="submit" id="contact-submit">Send Email</button>
+          </div>
+  </form>
+</article>
+
+
     <script src="javascript/jquery.js"></script>
     <script src="javascript/typed.js"></script>
     <script src="javascript/jquery.lettering.js"></script>

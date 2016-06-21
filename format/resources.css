@@ -1,8 +1,4 @@
-  .{
-    text-decoration: none;
-    box-sizing: border-box;
-    display: inherit;
-  }
+  
 
   li{
     text-decoration: none;
@@ -55,32 +51,42 @@
     text-decoration: none;
 
   }
-  .containerAbout{
-    height: 80vh;
+  #containerAbout{
+    height: 100vh;
     margin: 2vw 5vh 2vw 20vh;
   }
 
    #bio{
-     background-color: #36BA45;
-     opacity: .6;
+     background-color: #A19710;
+     opacity: .4;
      box-sizing: border-box;
      width: 40vw;
      height: 60vh;
      position: absolute;
      margin-top: 15vh;
+     border-radius: 25px;
+     /*for firefox browser*/
+     -moz-border-radius: 25px;
+
     }
+
+    .aboutInfo:hover{
+      background-color: #efefef;
+        }
    .aboutInfo{
      position: absolute;
      right: 30vh;
-     margin-top: 20vh;
+     margin-top: 18vh;
      font-family: ubuntu;
      color: black;
      width: 60vw;
      padding: 15px 15px;
      line-height: 20px;
+     box-shadow: 10px 0 5px grey;
+
    }
    #portfolio{
-     height: 80vh;
+     height: 100vh;
      background-color: #076B8C;
      margin: 3vh 3vw;
      padding: 2vh 2vw;
@@ -90,6 +96,7 @@
      justify-content: space-around;
      text-align: center;
      padding-top: 15vh;
+
    }
    .picInfo{
      font-family: ubuntu;
@@ -112,7 +119,7 @@
 
    }
    #contact-form{
-     height: 80vh;
+     height: 100vh;
      background-color: #076B8C;
      font-family: ubuntu;
      color: #efefef;
@@ -121,7 +128,7 @@
      font-size: 1.3em;
      box-sizing: border-box;
      -webkit-box-sizing:border-box;
-    -moz-box-sizing:border-box;
+     -moz-box-sizing:border-box;
   }
     #contact-form input[type="text"],
     #contact-form input[type="email"],
