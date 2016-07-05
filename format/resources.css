@@ -182,7 +182,7 @@
     border-radius:5px;
   }
 
-  @media screen and (min-width: 360px) {
+  /*@media screen and (min-width: 360px) {
     p.finalProjectInfo {
       font-family: ubuntu;
       color: #efefef;
@@ -230,7 +230,7 @@
       padding: 15px 15px;
       line-height: 20px;
       box-shadow: 10px 0 5px grey;
-    }
+    }*/
 
 
 }
