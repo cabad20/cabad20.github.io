@@ -61,7 +61,7 @@
      opacity: .4;
      box-sizing: border-box;
      width: 40vw;
-     height: 60vh;
+     height: 70vh;
      position: absolute;
      margin-top: 15vh;
      border-radius: 25px;
@@ -182,7 +182,7 @@
     border-radius:5px;
   }
 
-  /*@media screen and (min-width: 360px) {
+  @media only screen and (max-width: 460px) {
     p.finalProjectInfo {
       font-family: ubuntu;
       color: #efefef;
@@ -220,17 +220,32 @@
     }
     #containerAbout{
       margin: 2vw 5vh;
+      margin-top: 0;
+      height: auto;
     }
     .aboutInfo{
       position: absolute;
       right: 10vh;
-      margin-top: 28vh;
+      margin-top: 16vh;
+      width: inherit;
+      height: auto;
       font-family: ubuntu;
       color: black;
-      padding: 15px 15px;
-      line-height: 20px;
+      font-size: 10px;
       box-shadow: 10px 0 5px grey;
-    }*/
-
+      line-height: 10px;
+      padding: 5px;
+    }
+    #bio{
+      left: 0;
+      height: 0;
+    }
+    .main{
+      font-size: 1em;
+      text-align: center;
+    }
+    #containerAbout{
+      height: 60vh;
+    }
 
 }
